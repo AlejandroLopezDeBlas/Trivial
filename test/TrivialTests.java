@@ -19,6 +19,10 @@ public class TrivialTests {
         Game sut = new Game();
         sut.agregar("Maria");
         sut.agregar("Juan");
+        sut.agregar("Maria");
+        sut.agregar("Juan");
+        sut.agregar("Maria");
+        sut.agregar("Juan");
 
         sut.tirarDado(1);
 
