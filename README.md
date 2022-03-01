@@ -25,3 +25,14 @@ Hemos cambiado noGanador = false a ganador =true en la clase GameLauncher y hemo
 ##Problema 5
 
 Extraemos al método pasarASiguienteJugador y lo reemplazamos cada vez que se repita
+
+##Problema 6
+
+Hemos extraido el código duplicado 
+(System.out.println("Respuesta correcta!!!!");
+        monederos[jugadorActual]++;
+        System.out.println(jugadores.get(jugadorActual)
+                + " ahora tiene "
+                + monederos[jugadorActual]
+                + " monedas doradas.");)
+llamándolo "respuestaCorrectaMasMonedasDoradas" y lo hemos sustituido
