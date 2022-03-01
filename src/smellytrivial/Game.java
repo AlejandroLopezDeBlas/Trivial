@@ -117,7 +117,7 @@ public class Game {
                         + " ahora tiene "
                         + monederos[jugadorActual]
                         + " monedas doradas.");
-
+                enCasillaCastigo[jugadorActual] = false;
                 boolean ganador = jugadorHaGanado();
                 jugadorActual++;
                 if (jugadorActual == jugadores.size()) jugadorActual = 0;
