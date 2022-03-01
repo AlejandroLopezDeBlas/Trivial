@@ -20,3 +20,4 @@ Hemos añadido "enCasillaCastigo[jugadorActual] = false" en el método fueRespue
 
 ##Problema 4
 
+Hemos cambiado noGanador = false a ganador =true en la clase GameLauncher y hemos cambiado todas las referencias de noGanador a ganador
