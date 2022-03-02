@@ -36,3 +36,7 @@ Hemos extraido el código duplicado
                 + monederos[jugadorActual]
                 + " monedas doradas.");)
 llamándolo "respuestaCorrectaMasMonedasDoradas" y lo hemos sustituido
+
+##Problema 7
+
+Hemos establecido un generador de números aleatorios para que vaya recorriendo las preguntas existentes y que no haya fin. Hemos corregido fallos entre los que se encuentra el del método jugadorHaGanado

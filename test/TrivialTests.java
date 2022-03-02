@@ -21,7 +21,7 @@ public class TrivialTests {
 
         sut.tirarDado(1);
 
-        String expected = "La nueva posicion de Maria es 1";
+        String expected = "La nueva posicion de María es 1";
 
         //Act
 
