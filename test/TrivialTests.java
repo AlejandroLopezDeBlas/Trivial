@@ -30,4 +30,17 @@ public class TrivialTests {
         //Assert
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    public void problema1Testeo(){
+        Game game = new Game();
+        game.agregar("Maria");
+        boolean esJugable = game.esJugable();
+        if (!esJugable) {
+            System.out.println("Deben ser minimo 2");
+            System.out.println("--Terminando programa--");
+            System.exit(1);
+        }
+    }
+    
 }

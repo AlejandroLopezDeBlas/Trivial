@@ -40,3 +40,7 @@ llamándolo "respuestaCorrectaMasMonedasDoradas" y lo hemos sustituido
 ##Problema 7
 
 Hemos establecido un generador de números aleatorios para que vaya recorriendo las preguntas existentes y que no haya fin. Hemos corregido fallos entre los que se encuentra el del método jugadorHaGanado
+
+##Añadido Test Problema 1
+
+Ya que el problema 1 pide comprobar si funciona hemos decidido realizar un Test comprobándolo.
